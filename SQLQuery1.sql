@@ -161,6 +161,7 @@ where category='IT'
 select * from sales
 where Price=70000.20
 
+	---copying sales2 to sales3
 select * into sales2
 from db1.dbo.sales
 
